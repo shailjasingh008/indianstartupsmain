@@ -263,13 +263,17 @@ section .title::after{
     margin-bottom: 30px;
 }
 
-a img{
+.LGO{
     justify-content: center;
     float: right;
-    margin-right: 10px;
-    padding: 10px;
+    border-radius: 100%;
+    width: 90px;
+    height: 65px;
+   
   }
-
+strong{
+    color:#2ab26f;
+}
 button{
     text-align: center;
     display: inline-flex;
