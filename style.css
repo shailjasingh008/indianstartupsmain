@@ -33,6 +33,13 @@ section{
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
+    box-shadow: black;
+}
+
+.max-width2{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
 }
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
@@ -165,7 +172,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("image.jpg") no-repeat center;
+    background: url("resize-1615451576311803815jobfair.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
