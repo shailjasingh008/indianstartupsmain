@@ -279,75 +279,8 @@ display: flex;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-
-/*box2*/
-
-.services2, .teams{
-    color:#fff;
-    background:#fff;
-}
-.services2 .title::before,
-.teams .title::before{
-    background: #fff;
-}
-.services2 .title::after,
-.teams .title::after{
-    background: #111;
-    content: "what i provide";
-}
-.services2 .serv-content2 .card{
-    width: calc(33% - 20px);
-    background: #222;
-    text-align: center;
-    border-radius: 6px;
-    padding: 20px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.services2 .serv-content2 .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}
-
-.blog-card-2{
-    position: absolute;
-    height: 350px;
-    width: 95%;
-    max-width:1230px;
-    margin: auto;
-    border-radius: 25px;
-    background: white;
-    box-shadow: 0px 10px 50px rgba(51, 45, 45, 0.3);
-  }
-
-  #tap-1-2:checked ~ .inner-part .content-1,
-  #tap-2-2:checked ~ .inner-part .content-2,
-  #tap-3-2:checked ~ .inner-part .content-3,
-  #tap-4-2:checked ~ .inner-part .content-4{
-    opacity: 1;
-    margin-left: 0px;
-  
-    transition-delay: .3s;
-  }
-
-  input[type="radio2"],
-  input[type="checkbox"]{
-    display: none;
-  }
-  #tap-1-2:checked ~ .sliders .tap-1:before,
-  #tap-2-2:checked ~ .sliders .tap-2:before,
-  #tap-3-2:checked ~ .sliders .tap-3:before,
-  #tap-4-2:checked ~ .sliders .tap-4:before{
-    transform: scaleX(1);
-    width: 100%;
-  }
-
 .logo2{
-
     height: 15px;
-
 }
 a img{
     justify-content: center;
@@ -371,12 +304,12 @@ a img{
     display: flex;
     height: 360px;
     margin: 10px;
-    padding: 0 25px;
+    padding: 0 15px;
   }
   
   
   .content{
-    padding: 0 30px 0 35px;
+    padding: 0 10px 0 1px;
     width: auto;
     margin-left: 50px;
     opacity: 0;
@@ -474,6 +407,176 @@ a img{
   #tap-2:checked ~ .sliders .tap-2:before,
   #tap-3:checked ~ .sliders .tap-3:before,
   #tap-4:checked ~ .sliders .tap-4:before{
+    transform: scaleX(1);
+    width: 100%;
+  }
+  
+  label{
+    position: relative;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* services section styling */
+.services2, .teams{
+    color:#fff;
+    background:#fff;
+}
+.services2 .title::before,
+.teams .title::before{
+    background: #fff;
+}
+.services2 .title::after,
+.teams .title::after{
+    background: #111;
+    content: "what i provide";
+}
+.services2 .serv-content2 .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services2 .serv-content2 .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.logo2{
+    height: 15px;
+}
+a img{
+    justify-content: center;
+    float: right;
+    margin-right: 5px;
+    padding: 20px;
+  }
+
+.blog-card2{
+    position: absolute;
+    height: 360px;
+    width: 95%;
+    max-width:1230px;
+    margin: auto;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0px 10px 50px rgba(51, 45, 45, 0.3);
+  }
+  .inner-part2{
+    position: absolute;
+    display: flex;
+    height: 360px;
+    margin: 10px;
+  padding: 0 15px;
+  }
+  
+  
+  .content2{
+    padding: 0 10px 0 1px;
+    width: auto;
+    margin-left: 50px;
+    opacity: 0;
+    transition: .6s;
+  }
+  #tap-1-2:checked ~ .inner-part2 .content-1-2,
+  #tap-2-2:checked ~ .inner-part2 .content-2-2,
+  #tap-3-2:checked ~ .inner-part2 .content-3-2,
+  #tap-4-2:checked ~ .inner-part2 .content-4-2{
+    opacity: 1;
+    margin-left: 0px;
+  
+    transition-delay: .3s;
+  }
+  .content2 span{
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    color: #2ab26f;
+    margin-bottom: 20px;
+  }
+  .content2 .title-1{
+      top: auto;
+      color: #0d0925;
+      margin-bottom: 5px;
+      font-size: 19px;
+      font-weight: 700;
+      margin-top: 1px;
+    
+  }
+  .content2 .text{
+    color: #4e4a67;
+    font-size: 13px;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    text-align: justify;
+  }
+  .content2 button{
+    display: inline-flex;
+    padding: 10px 15px;
+    border: none;
+    margin: 90px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff0e6;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #2ab26f;
+    background: linear-gradient(130deg, #2ab26f 0%, #0084ba 100%);
+  }
+  .content2 button:hover{
+      background: linear-gradient(130deg, #2ab26f 0%, #0084ba 100%);
+  }
+  .sliders2{
+    position: absolute;
+    bottom: 25px;
+    left: 90%;
+    transform: translateX(-10%);
+    z-index: 12;
+  }
+  .sliders2 .tap{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background: #d9d9d9;
+    border-radius: 5px;
+    display: inline-flex;
+    margin: 0 3px;
+    cursor: pointer;
+  }
+  .sliders2 .tap:hover{
+    background: #cccccc;
+  }
+  .sliders2 .tap:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: -100%;
+    background: linear-gradient(130deg, #2ab26f 0%, #0084ba 100%);
+    border-radius: 10px;
+    transform: scaleX(0);
+    transition: transform .6s;
+    transform-origin: left;
+  }
+  input[type="radio"],
+  input[type="checkbox"]{
+    display: none;
+  }
+  #tap-1-2:checked ~ .sliders2 .tap-1-2:before,
+  #tap-2-2:checked ~ .sliders2 .tap-2-2:before,
+  #tap-3-2:checked ~ .sliders2 .tap-3-2:before,
+  #tap-4-2:checked ~ .sliders2 .tap-4-2:before{
     transform: scaleX(1);
     width: 100%;
   }
